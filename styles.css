@@ -2,21 +2,68 @@ body {
     background-color: black;
 }
 
-
-
-
-
+.navbar {
+    background-color: black;
+    color: white;
+    height: 100px;
+    margin-bottom: 50px;
+}
 
 .jumbotron {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://images.pexels.com/photos/5959179/pexels-photo-5959179.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/img/bandMain.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    height: 150vh;
     width: 100vw;
-    opacity: 150
-  }
+    opacity: 150;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    }
+.playerhead {
+    margin-top: 20px;
+}
 
-  footer {
-      margin-top: 50px;,
-  }
+footer {
+    margin-top: 50px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    
+    }
+
+.learnbtn {
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+.row1 {
+    margin-top: 50px;
+}
+
+.topLine {
+    margin-bottom: 40px;
+}
+
+.site-footer {
+    color: white;
+    background-image: linear-gradient(#8d86c6, rgb(7, 8, 88));
+    padding: 20px 0;
+    
+    
+    
+}
+
+.video1 {
+    text-align: center;
+    margin: 0;
+}
+
+.footbtn {
+    color: white;
+}
+
+.videoText {
+    margin: 0;
+}
